@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.card {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4rem;
+
+  width: 100%;
+}
+
+.one {
+  width: 30%;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 450px;
+  border: 1px solid #eee;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: 0.2s all ease-in-out;
+}
+/* CSS */
+.button-28 {
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #1a1a1a;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #3b3b3b;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+}
+
+.one button {
+  font-size: x-large;
+}
+.one button:disabled {
+  pointer-events: none;
+}
+
+.one button:hover {
+  color: #fff;
+  background-color: #1a1a1a;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.one button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.one:hover {
+  transform: scale(1.1);
+}
+.one-img img {
+  height: 200px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  /* background: whitesmoke; */
+  background-color: white;
+  align-items: center;
+  width: 95%;
+  margin: 0 auto;
+  height: 10vh;
+}
+.one p {
+  letter-spacing: 1px;
+  /* line-height: 20px; */
+  color: rgb(80, 79, 79);
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+button {
+  width: 90%;
+}
+
+.left {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%;
+}
+
+.right {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%;
+}
+
+img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.zillow {
+  width: 13%;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.banner {
+  background-image: url("https://www.zillowstatic.com/s3/homepage/static/ZillowTimberlake_2098_DT_1440.webp");
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-content: center;
+  overflow: hidden;
+}
+.bannerbody {
+  width: 50%;
+  margin: 70px auto;
+}
+.banner h1 {
+  color: whitesmoke;
+  text-align: center;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+
+.inputbanner {
+  width: 100%;
+  height: 80px;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  border-radius: 8px;
+  border: none;
+}
+
+input {
+  height: 80%;
+  border: none;
+  width: 90%;
+  outline: none;
+  padding-left: 1rem;
+}
+
+input::placeholder {
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+i {
+  padding-right: 1rem;
+  width: 10%;
+}

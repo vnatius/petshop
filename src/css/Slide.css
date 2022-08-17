@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.slider .carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  height: 50vh;
+  overflow: hidden;
+}
+
+.parent {
+  display: flex;
+  margin: 0;
+
+  /* height: 50px !important; */
+  position: relative;
+}
+
+#father {
+  display: flex;
+  margin: 0;
+}
+
+/* .parent > * {
+  flex-basis: 100%;
+  margin: 2rem;
+
+  gap: 1em;
+} */
